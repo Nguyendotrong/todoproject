@@ -17,17 +17,17 @@ class UserCreateSerializer(ModelSerializer):
             },
         }
 
-    # def create(self, validated_data):
-    #     user = User(**validated_data)
-    #     user.set_password(validated_data['password'])
-    #     user.save()
-    #
-    #     return user
+    def create(self, validated_data):
+        user = User(**validated_data)
+        user.set_password(validated_data['password'])
+        user.save()
+
+        return user
 
 
 class UserSerializer(ModelSerializer):
+
     class Meta:
         model = User
-
         exclude = ['password']
         read_only_fields = ["date_joined", 'id', 'username', 'groups']

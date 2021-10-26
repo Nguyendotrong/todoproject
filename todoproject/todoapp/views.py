@@ -9,6 +9,7 @@ from .serializers import UserCreateSerializer, UserSerializer
 
 
 class UserViewSet(viewsets.GenericViewSet, generics.CreateAPIView, generics.ListAPIView):
+
     queryset = User.objects.filter(is_active=True)
     parser_classes = [MultiPartParser, ]
 
