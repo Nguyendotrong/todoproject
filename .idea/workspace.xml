@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b5d5efc7-3bf5-48ed-bfaa-42ae66d4f40e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoapp/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoproject/todoapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/todoproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/todoproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoproject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../he-thong-quan-ly-giao-hang/aba-manage-ship" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -74,7 +75,7 @@
       <workItem from="1634875810970" duration="11388000" />
       <workItem from="1635123779677" duration="16996000" />
       <workItem from="1635183473605" duration="1307000" />
-      <workItem from="1635213548500" duration="3216000" />
+      <workItem from="1635213548500" duration="11140000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1634697927042</created>
@@ -97,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635256370409</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tìm hiểu chuẩn PEP8 và chỉnh lại format code cho đúng chuẩn">
+      <created>1635261447589</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635261447589</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +127,8 @@
     <MESSAGE value="setup" />
     <MESSAGE value="api đăng ký" />
     <MESSAGE value="cập nhật các Hằng vào file constants.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="cập nhật các Hằng vào file constants.py" />
+    <MESSAGE value="tìm hiểu chuẩn PEP8 và chỉnh lại format code cho đúng chuẩn" />
+    <option name="LAST_COMMIT_MESSAGE" value="tìm hiểu chuẩn PEP8 và chỉnh lại format code cho đúng chuẩn" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
