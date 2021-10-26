@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'todoapp.apps.TodoappConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -76,13 +78,19 @@ WSGI_APPLICATION = 'todoproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'todosprojectdb',
+        'NAME': 'tododb',
         'USER': 'root',
         'PASSWORD': '1+2+3+0',
         'HOST': ''
     }
 }
 
+CLOUDINARY = {
+    'cloud_name': 'dsij6mntp',
+    'api_key': '898561282839112',
+    'api_secret': 'oWUBaFed4Buos_af6XWdpxYCl3k',
+    'secure': True
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -121,8 +129,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_ROOT = '%s/abaShip/static/image/' %BASE_DIR
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AUTH_USER_MODEL = 'todoapp.User'
+
+

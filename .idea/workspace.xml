@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5d5efc7-3bf5-48ed-bfaa-42ae66d4f40e" name="Default Changelist" comment="" />
+    <list default="true" id="b5d5efc7-3bf5-48ed-bfaa-42ae66d4f40e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/todoproject/todoapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoproject/todoapp/validators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoapp/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/todoproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/todoproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoproject/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo-django" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -58,8 +74,19 @@
       <workItem from="1634626986464" duration="1846000" />
       <workItem from="1634652503014" duration="3030000" />
       <workItem from="1634693743405" duration="1353000" />
-      <workItem from="1634695657884" duration="1782000" />
+      <workItem from="1634695657884" duration="12001000" />
+      <workItem from="1634875810970" duration="11388000" />
+      <workItem from="1635123779677" duration="16996000" />
+      <workItem from="1635183473605" duration="1307000" />
     </task>
+    <task id="LOCAL-00001" summary="setup">
+      <created>1634697927042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634697927042</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +103,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
