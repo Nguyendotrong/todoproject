@@ -3,6 +3,8 @@ from django.contrib.auth.models import AbstractUser
 from cloudinary.models import CloudinaryField
 from . import validators
 from django.utils.translation import gettext_lazy as _
+from .constants import TYPE_GENDER, PRIORITY,STATUS, FEATURE, BUG, LABEL
+
 
 
 class Notification(models.Model):
@@ -23,9 +25,8 @@ class User(AbstractUser):
 
     phone_validator = validators.UnicodePhoneValidator
 
-    type_gender = (("Male", 'Male'), ("Female", 'Female'), ("Other", 'Other'))
     avatar = CloudinaryField("avatar", null=True)
-    gender = models.CharField(max_length=10, choices=type_gender, default=0)
+    gender = models.CharField(max_length=10, choices=TYPE_GENDER, default=0)
     email = models.EmailField(_('email address'), blank=True,unique=True)
     phone = models.CharField(max_length=10, null=True,
                              unique=True,
@@ -102,13 +103,7 @@ class UserEpic(models.Model):
         return  "User: {},\nEpic: {}".format(self.user, self.epic.name)
 
 class Task(Base):
-    PRIORITY = (("Low", 'Low'), ("Medium", 'Medium'), ("High", 'High'))
-    STATUS = (("TODO",'To do'), ('PROCESSING', 'Processing'), ('QA', 'QA'), ('DONE', 'Done'))
-    FEATURE, BUG =  range(2)
-    LABEL = [
-        (FEATURE, "Feature"),
-        (BUG, 'Bug')
-    ]
+
 
     leader = models.ForeignKey(User, related_name='tasks_leading', on_delete=models.PROTECT)
     epic = models.ForeignKey(Epic, related_name='tasks', on_delete=models.PROTECT)
@@ -129,6 +124,7 @@ class UserTask(models.Model):
         ordering = ["-task__created_date"]
 
 class LauchTimeLine(models.Model):
+
     project = models.ForeignKey(Project, related_name='lauchtimelines', on_delete=models.CASCADE)
     time = models.DateTimeField()
     name = models.CharField(max_length=250)
