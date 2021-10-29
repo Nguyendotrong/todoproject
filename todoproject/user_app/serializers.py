@@ -5,11 +5,15 @@ from .models import User
 
 
 class UserCreateSerializer(ModelSerializer):
+
     avatar = ImageField(required=True, error_messages={'required': 'Lỗi upload avatar'})
+
     class Meta:
+
         model = User
         fields = ['id', 'first_name','avatar', 'last_name', 'username', 'phone', 'email', 'password',
                   'gender', ]
+
         extra_kwargs = {
             'password': {
                 'write_only': True,

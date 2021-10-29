@@ -37,9 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'todoapp.apps.TodoappConfig',
+    # 'todoapp.apps.TodoappConfig',
+    'user_app.apps.UserAppConfig',
+    'notification_app.apps.NotificationAppConfig',
     'oauth2_provider',
     'corsheaders',
+    'cloudinary',
     'rest_framework',
     'drf_yasg',
 
@@ -104,9 +107,10 @@ DATABASES = {
 }
 
 CLOUDINARY = {
+    #tài khoản: nguyendotrong.58@gmail.com
     'cloud_name': 'dsij6mntp',
-    'api_key': '898561282839112',
-    'api_secret': 'oWUBaFed4Buos_af6XWdpxYCl3k',
+    'api_key': '189381149557242',
+    'api_secret': 'f1Wq2eqAXeZqmI9ubM9cAc989mo',
     'secure': True
 }
 
@@ -154,6 +158,6 @@ MEDIA_ROOT = '%s/abaShip/static/image/' %BASE_DIR
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = 'todoapp.User'
+AUTH_USER_MODEL = 'user_app.User'
 
 

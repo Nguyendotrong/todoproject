@@ -38,7 +38,7 @@ schema_view = get_schema_view(
 urlpatterns = [
 
 
-    path('', include('todoapp.urls')),
+    path('', include('user_app.urls')),
 
 
     re_path(r'^swagger(?P<format>\.json|\.yaml)$',
