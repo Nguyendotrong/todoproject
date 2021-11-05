@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # 'todoapp.apps.TodoappConfig',
     'user_app.apps.UserAppConfig',
     'notification_app.apps.NotificationAppConfig',
+    'project_app.apps.ProjectAppConfig',
     'oauth2_provider',
     'corsheaders',
     'cloudinary',

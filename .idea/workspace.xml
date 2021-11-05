@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d5efc7-3bf5-48ed-bfaa-42ae66d4f40e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/todoproject/user_app/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoproject/user_app/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoproject/user_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoproject/user_app/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoproject/project_app/permission.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoproject/project_app/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/migrations/0002_alter_user_email.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoapp/views/project_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoapp/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/project_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/project_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/project_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/project_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/project_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/project_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoapp/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoproject/todoproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoproject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproject/todoproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoproject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../he-thong-quan-ly-giao-hang/aba-manage-ship" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -86,7 +80,11 @@
       <workItem from="1635183473605" duration="1307000" />
       <workItem from="1635213548500" duration="11481000" />
       <workItem from="1635356149894" duration="6365000" />
-      <workItem from="1635431523493" duration="7477000" />
+      <workItem from="1635431523493" duration="10467000" />
+      <workItem from="1635512617578" duration="592000" />
+      <workItem from="1635777371815" duration="596000" />
+      <workItem from="1636041560129" duration="2952000" />
+      <workItem from="1636093284113" duration="8610000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1634697927042</created>
@@ -123,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635274339772</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- Dividing the app into multiple apps. &#10;- Yesterday I was working on an app user. but got error import pcage">
+      <created>1635471385585</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635471385585</updated>
+    </task>
+    <task id="LOCAL-00007" summary="- fix error path import package user_app into notification_app">
+      <created>1635474305622</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635474305622</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +159,9 @@
     <MESSAGE value="cập nhật các Hằng vào file constants.py" />
     <MESSAGE value="tìm hiểu chuẩn PEP8 và chỉnh lại format code cho đúng chuẩn" />
     <MESSAGE value="thêm swagger, thêm oauth2" />
-    <option name="LAST_COMMIT_MESSAGE" value="thêm swagger, thêm oauth2" />
+    <MESSAGE value="- Dividing the app into multiple apps. &#10;- Yesterday I was working on an app user. but got error import pcage" />
+    <MESSAGE value="- fix error path import package user_app into notification_app" />
+    <option name="LAST_COMMIT_MESSAGE" value="- fix error path import package user_app into notification_app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
