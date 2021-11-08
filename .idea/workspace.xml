@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d5efc7-3bf5-48ed-bfaa-42ae66d4f40e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/todoproject/project_app/permission.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoproject/project_app/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoproject/project_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoproject/project_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/project_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproject/project_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/project_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/project_app/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/project_app/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoproject/project_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/project_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoproject/todoapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoapp/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoproject/todoproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/todoproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/todoproject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/user_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/user_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoproject/user_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoproject/user_app/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../he-thong-quan-ly-giao-hang/aba-manage-ship" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python-entrancce-test/Python-Django-to-do-API-set-project" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -84,7 +85,8 @@
       <workItem from="1635512617578" duration="592000" />
       <workItem from="1635777371815" duration="596000" />
       <workItem from="1636041560129" duration="2952000" />
-      <workItem from="1636093284113" duration="8610000" />
+      <workItem from="1636093284113" duration="9271000" />
+      <workItem from="1636339270363" duration="6377000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1634697927042</created>
@@ -135,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635474305622</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="migrate project models, api create project">
+      <created>1636118644391</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636118644391</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +170,8 @@
     <MESSAGE value="thêm swagger, thêm oauth2" />
     <MESSAGE value="- Dividing the app into multiple apps. &#10;- Yesterday I was working on an app user. but got error import pcage" />
     <MESSAGE value="- fix error path import package user_app into notification_app" />
-    <option name="LAST_COMMIT_MESSAGE" value="- fix error path import package user_app into notification_app" />
+    <MESSAGE value="migrate project models, api create project" />
+    <option name="LAST_COMMIT_MESSAGE" value="migrate project models, api create project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

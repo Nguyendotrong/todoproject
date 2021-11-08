@@ -1,8 +1,9 @@
 from rest_framework import viewsets, generics,  status, permissions
+from rest_framework.response import Response
 
 from .models import Project
 from .permission import PermissionProject, PermissionViewProject
-from .serializers import ProjectCreateSerializer
+from .serializers import ProjectCreateSerializer, ProjectSerializer
 
 
 class ProjectView(viewsets.GenericViewSet, generics.CreateAPIView, generics.ListAPIView):
@@ -22,6 +23,8 @@ class ProjectView(viewsets.GenericViewSet, generics.CreateAPIView, generics.List
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         instance = serializer.save(**{'project_manager':request.user})
+        headers = self.get_success_headers(serializer.data)
+        return Response(ProjectSerializer(instance),status=status.HTTP_201_CREATED,header=headers)
 
 
 
